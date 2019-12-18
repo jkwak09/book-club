@@ -25,6 +25,6 @@ function ReadingList(props) {
       })}
     </div>
   )
-}
+};
 
 export default ReadingList;
