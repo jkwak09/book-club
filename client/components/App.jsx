@@ -10,14 +10,11 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      books: null,
-
+      books: null
     };
 
     this.getBooks = this.getBooks.bind(this);
-
   };
-
 
   getBooks(){
     axios.get('/books')
